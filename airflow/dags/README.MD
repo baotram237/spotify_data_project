@@ -8,11 +8,11 @@ This project has three DAGs connected with dataset dependencies:
 ![Dags](images/Dag_illustrations.png)
 
 1. Dags examples:
-![Categories dag](images/categories_dag.png)
+![Categories dag](https://github.com/baotram237/spotify_data_project/blob/main/images/categories_dag.png)
 
-![Tracks dag](images/tracks_dag.png)
+![Tracks dag](images/https://github.com/baotram237/spotify_data_project/blob/main/images/tracks_dag.png)
 
 2. Data in Redshift:
-![sample data in Redshift](images/bronze_categories_exp.png)
+![sample data in Redshift](images/https://github.com/baotram237/spotify_data_project/blob/main/images/bronze_categories_exp.png)
 
 
