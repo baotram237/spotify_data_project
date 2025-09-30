@@ -1,0 +1,4 @@
+models:
+  - name: spotify_int__albumDurationDetails
+    config:
+      tags: ['album', 'enriched']
