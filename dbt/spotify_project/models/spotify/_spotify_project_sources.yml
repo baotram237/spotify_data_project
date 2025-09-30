@@ -1,0 +1,11 @@
+version: 2
+
+sources:
+  - name: spotify
+  # database: awsdatacatalog
+    schema: tramntb_dev
+    tables:
+      - name: bronze_spotify_categories
+      - name: bronze_spotify_new_albums
+      - name: bronze_spotify_tracks
+

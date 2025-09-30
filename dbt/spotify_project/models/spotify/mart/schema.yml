@@ -1,0 +1,10 @@
+models:
+  - name: spotify_mrt__albumsDuration
+    description: 'Enriched albums duration and aggregated details'
+    config:
+      tags: ['fact', 'album', 'aggregated']
+
+  - name: spotify_mrt__albumsNewRelease
+    description: 'New album releases'
+    config:
+      tags: ['fact', 'album', 'new_release']
