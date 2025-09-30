@@ -5,13 +5,7 @@ This project demonstrates an end-to-end ELT data pipeline for music analytics.
 - The pipeline is orchestrated with Apache Airflow (Celery Executor, Docker Compose) and leverages Airflow Datasets for data-aware task dependencies.
 
 🚀 Architecture
-flowchart LR
-    subgraph Airflow DAG
-        A[Extract from Spotify API] --> B[S3 Dataset (Raw Layer)]
-        B --> C[Redshift COPY Task (Staging Layer)]
-        C --> D[dbt Transformations (Marts)]
-    end
-    D --> E[Analytics / BI]
+![Data Pipeline Architecture](images/Spotify_data_project.png)
 
 🛠️ Tech Stack
 Orchestration: Apache Airflow (Celery Executor, Docker Compose, Airflow Datasets)
